@@ -1,2 +1,4 @@
-# library-boilerplate
-Some boilerplate for js libraries
+knockout-bootstrap-switch
+=========================
+
+Knockout Binding Handler for the bootstrap-switch jQuery plugin.
