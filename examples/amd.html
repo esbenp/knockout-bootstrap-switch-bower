@@ -4,11 +4,16 @@
     <meta charset="utf-8">
     <title>Examples</title>
 
+    <link href="../bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+    <link href="../bower_components/bootstrap-switch/dist/css/bootstrap3/bootstrap-switch.css" rel="stylesheet">
+
     <script data-main="amd" src="../bower_components/requirejs/require.js"></script>
 </head>
 <body>
 
-	
+    <div id="container">
+        <input type="checkbox" name="my-checkbox" data-bind="bootstrapSwitch: state">
+    </div>
 
 </body>
 </html>
